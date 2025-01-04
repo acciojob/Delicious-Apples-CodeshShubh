@@ -1,1 +1,67 @@
 /* your code here */
+:root{
+	background-color: #69e480;
+	
+	
+}
+.product{
+	display: flex;
+	background-color: white;
+	width: 410px;
+	/* height: 270px; */
+	justify-content: space-between;
+	margin:20% auto;
+	font-size: 10px;
+	
+}
+
+.photo-main{
+	background-color : #b3e943;
+	height:290px;
+	>.controls{
+		display: flex;
+		justify-content: space-between;
+		color: white;
+	}
+	>img{
+		width: 200px;
+	}
+}
+.photo-album{
+	>ul{
+		display: flex;
+		list-style: none;
+			li>img{
+		width: 30px;
+}
+	}
+
+}
+
+
+.price{
+	color: red;
+}
+
+.variant{
+	ul{
+		display: flex;
+		list-style: none;
+		>li{
+			>img{
+				width: 30px;
+			}
+		}
+	}
+}
+.btn>button{
+	border: none;
+	background-color:#ed3b3d;
+	font-size: 10px;
+	border-radius: 2px;
+	height: 20px
+}
+
+
+
+
